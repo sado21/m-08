@@ -1,13 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
+h1,li,ul,h2{ 
+  font-family: 'PreCursiveRegular'; 
+  font-weight: normal; 
+  font-style: normal;  
+}
+
 body {
-  background-color: #000;
-  font-family: 'Oswald', 'Futura', sans-serif;
+  background-color: hotpink;
+  font-family: 'PreCursiveRegular'; 
+  font-weight: normal; 
+  font-style: normal; ;
   margin: 0; 
   padding: 0;}
 
 #page {
-  background-color: #403c3b;
+  background-color: greenyellow;
   margin: 0 auto 0 auto;}
 /* Responsive page rules at bottom of style sheet */
 
@@ -47,13 +55,13 @@ h2 span {
   padding: 4px 0 0 4px;}
 
 ul {
-  background-color: #584f4d;
+  background-color: gold;
   border:none;
   padding: 0;
   margin: 0;}
 
 li {
-  background-color: #ec8b68;
+  background-color: greenyellow;
   color: #fff;
   border-top: 1px solid #fe9772;
   border-bottom: 1px solid #9f593f;
@@ -66,7 +74,7 @@ li {
   padding-top: 10px;}
 
 .hot {
-  background-color: #d7666b;
+  background-color: palevioletred;
   color: #fff;
   text-shadow: 2px 2px 1px #914141;
   border-top: 1px solid #e99295;
